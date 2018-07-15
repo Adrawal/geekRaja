@@ -1,0 +1,33 @@
+{
+    "db":{
+        "usernamme":"MongoDev",
+        "password":"MongoDev",
+        "host":"localhost",
+        "port":"27017",
+        "name":"geekraja"
+    },
+    "sessionSecret":"geekRaja@32",
+    "facebook":{
+        "clientID":"just a random",
+        "clientSecret":"just a random",
+        "callbackURL":"auth/facebook/callback",
+        "profileFields":["id","displayName","photos"]
+    },
+    "twitter":{
+        "consumerKey":"just a random",
+        "consumerSecret":"just a random",
+        "callbackURL":"auth/twitter/callback",
+        "profileFields":["id","displayName","photos"]
+    },
+    "google":{
+        "clientID":"just a random",
+        "clientSecret":"just a random",
+        "callbackURL":"auth/google/callback",
+        "profileFields":["id","displayName","photos"]
+    },
+    "redis":{
+        "host":"127.0.0.1",
+        "post": 6379,
+        "password":""
+    }
+}
